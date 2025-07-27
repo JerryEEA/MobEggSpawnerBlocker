@@ -1,0 +1,16 @@
+main: me.sothatsit.mobeggspawnerblocker.MobEggSpawnerBlocker
+author: sothatsit
+name: MobEggSpawnerBlocker
+version: 2.0
+api-version: 1.21
+description: 防止玩家在沒有權限的情況下使用生怪蛋替換生怪籠中的生物
+commands:
+   mobeggspawnerblocker:
+      description: 'reload MobEggSpawnerBlocker config'
+permissions:
+   mobeggspawnerblocker.reload:
+      description: 'gives access to /mobeggspawnerblocker command'
+      default: op
+   mobeggspawnerblocker.override:
+      description: 'Override mob egg spawner blocker'
+      default: op

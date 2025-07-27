@@ -1,0 +1,16 @@
+# 當玩家嘗試使用生怪蛋更改生怪籠時顯示的訊息
+message: '&cChanging spawners using mob eggs is disabled on this server'
+
+# 是否阻止創造模式玩家使用生怪蛋（false = 允許創造模式玩家使用）
+block-creative: false
+
+# 插件版本（請勿修改）
+config-version: 2
+
+# 是否在控制台記錄被阻止的嘗試
+log-attempts: true
+
+# 支援的 Minecraft 版本
+supported-versions:
+  - '1.13+'
+  - '1.21.8'
